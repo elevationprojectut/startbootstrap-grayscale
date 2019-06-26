@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #6189B9;
+  border: 1px solid #6189B9;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #00285E;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -66,23 +66,23 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #00285E;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #00285E;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #6189B9;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #3f638e;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #6189B9;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #6189B9;
   }
 }
 
@@ -92,8 +92,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 40, 94, 0.3)), color-stop(75%, rgba(0, 40, 94, 0.7)), to(#00285E)), url("../img/hero.png");
+  background: linear-gradient(to bottom, rgba(0, 40, 94, 0.3) 0%, rgba(0, 40, 94, 0.7) 75%, #00285E 100%), url("../img/hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -150,26 +150,26 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #6189B9;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #476fa0;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #476fa0;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #3f638e !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00285E), color-stop(75%, rgba(0, 40, 94, 0.9)), to(rgba(0, 40, 94, 0.8)));
+  background: linear-gradient(to bottom, #00285E 0%, rgba(0, 40, 94, 0.9) 75%, rgba(0, 40, 94, 0.8) 100%);
 }
 
 .about-section p {
@@ -187,7 +187,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #6189B9;
   }
 }
 
@@ -201,7 +201,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #6189B9;
     border-width: .25rem;
     width: 30%;
   }
@@ -209,8 +209,8 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 40, 94, 0.1)), color-stop(75%, rgba(0, 40, 94, 0.5)), to(#00285E)), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 40, 94, 0.1) 0%, rgba(0, 40, 94, 0.5) 75%, #00285E 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -235,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #6189B9;
 }
 
 .contact-section .card h4 {
@@ -246,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #6189B9;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -279,24 +279,24 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #6189B9;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #37577d;
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #00285E !important;
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #6189B9 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #6189B9 !important;
 }
 
 footer {
